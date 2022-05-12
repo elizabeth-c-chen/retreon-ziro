@@ -1,0 +1,14 @@
+@import url(https://schnensch0.github.io/ziro/ziro.css);
+
+:root {
+    --br-1: 10px;
+    --br-2: 8px;
+    --scrollbar: unset;
+}
+
+/* Fix overlapping playback timer and playback buttons with narrow window size */
+@media screen and (max-width: 980px) {
+    .main-nowPlayingBar-center {
+        display: flex;
+    }
+ }
