@@ -16,5 +16,4 @@ git clone https://github.com/elizabeth-c-chen/retreon-ziro.git
 
 spicetify config current_theme retreon-ziro
 spicetify apply
-
 ```
