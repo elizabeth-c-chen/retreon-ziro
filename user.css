@@ -5,6 +5,7 @@
     --br-2: 8px;
     --scrollbar: unset;
 }
+
 .encore-dark-theme, .encore-dark-theme .encore-base-set {
     --text-subdued: #FE0B99;  /* make subtext in playlist descriptions etc. hot pink */
 }
@@ -23,3 +24,9 @@
     margin-bottom: 30px;
 }
 
+/* Fix overlapping playback timer and playback buttons with narrow window size */
+@media screen and (max-width: 980px) {
+    .main-nowPlayingBar-center {
+        display: flex;
+    }
+ }
