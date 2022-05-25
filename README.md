@@ -8,7 +8,7 @@ My custom color scheme designed for Ziro theme for Spicetify. Special thanks to 
 
 ### Preview
 Retreon Theme in VS Code vs. Retreon/Ziro Theme applied to Spotify
-<img width="1440" alt="preview" src="https://user-images.githubusercontent.com/47286050/168024276-598692aa-47df-463e-a620-165c0635f789.png">
+<img width="1440" alt="preview" src="preview.png">
 
 
 ### Setup (Linux/macOS)
