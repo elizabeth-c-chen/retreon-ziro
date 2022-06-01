@@ -31,7 +31,7 @@
 
 /* Change color of liked heart icon */
 .main-addButton-button.main-trackList-rowHeartButton.main-addButton-active {
-    color: #ff0008; /* red hearts */
+    color: #00fe00; /* green hearts */
 }
 
 /* Change color of Main Play button SVG */
