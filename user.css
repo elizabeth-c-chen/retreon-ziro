@@ -6,11 +6,36 @@
     --scrollbar: unset;
 }
 
+/* Remove color changing hover on homepage */
+.n87ifzfQlmGX8vkeYGDL {
+    background-color: var(--spice-shadow)  !important; 
+}
+
 /* Change color of navbar top links (Home, Search, Your Library) */
+.main-navBar-navBarItem ,
+.main-navBar-navBarLink,
 .main-navBar-navBarLinkActive,
 .main-collectionLinkButton-selected,
 .main-rootlist-rootlistItemLinkActive {
-    color: var(--spice-subtext) !important;
+    color: var(--spice-text) !important;
+}
+
+/* Change color of liked heart icon */
+.main-addButton-button, 
+.main-trackList-rowHeartButton,
+.main-addButton-active {
+    color: var(--spice-text); /* green hearts */
+}
+
+/* SVGs */
+.encore-light-theme,
+.uPxdw {
+    color: var(--spice-text);
+}
+
+/* Text color of popup  */
+.encore-light-theme {
+    --text-base: var(--spice-text);
 }
 
 /* Change color of selected row text */
@@ -18,54 +43,25 @@
     color: var(--spice-button) !important; 
 }
 
-/* Remove color changing hover on homepage */
-.n87ifzfQlmGX8vkeYGDL {
-    background-color: var(--spice-shadow)  !important; 
-}
-
 /* Change color of playlist card subtext and sidebar arrow expanders */
 .encore-dark-theme,
-.encore-dark-theme .encore-base-set {
+.encore-dark-theme.encore-base-set {
     --text-subdued: var(--spice-button); 
 }
 
-/* Change color of liked heart icon */
-.main-addButton-button.main-trackList-rowHeartButton.main-addButton-active {
-    color: #00fe00; /* green hearts */
+/* Edit playlist Save Button */
+.iPIgLs {
+    background: var(--spice-button);
 }
 
-/* Change color of Main Play button SVG */
-.gHYQaG {
-    color: var(--spice-button-disabled);
+/* Edit playlist Save Button (HOVER) */
+.fOayXK:hover .ButtonInner-sc-14ud5tc-0 {
+    background: var(--spice-button-active);
 }
 
-/* Change color of Add Collaborator SVG button */
-.X1lXSiVj0pzhQCUo_72A {
-    color: var(--spice-button);
-}
-
-/* Change color of little buttons in Now Playing Bar */
-button.control-button, button.hyWUsx {
-    color: var(--spice-text);
-}
-
-/* Change hover color of little buttons in Now Playing Bar */
-button.control-button:hover, button.hyWUsx:hover {
-    color: var(--spice-subtext);
-}
-
-/* Change color of Now Playing Bar Play button background */
-.vnCew8qzJq3cVGlYFXRI  {
-    background-color: var(--spice-button-disabled);
-}
-
-/* Fix position of playback timer components - Time Elapsed */
-.playback-bar__progress-time-elapsed,
-.main-playbackBarRemainingTime-container {
-    color: var(--spice-subtext);
-    position: absolute;
-    margin-bottom: 30px;
-    right: 306px;  /* position offset of elapsed timer */
+/* Now Playing Bar Play button background */
+.main-playPauseButton-button {
+    background-color: var(--spice-subtext);
 }
 
 /* Fix position of playback timer components - Duration */
